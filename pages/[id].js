@@ -6,9 +6,9 @@ export default function PokemonDisplay({ data }) {
 
   return (
     <>
-      <h1>teste {id}</h1>
+      <h1>{ data.name }</h1>
       <p>
-        {JSON.stringify(data.name)}
+        {JSON.stringify(data)}
       </p>
     </>
   )
